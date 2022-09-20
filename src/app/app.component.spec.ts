@@ -20,6 +20,7 @@ describe('AppComponent Test suite', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('unit-testing');
+    /*bn equis*/
   });
 
   it('should render title', () => {
