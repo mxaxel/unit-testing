@@ -1,7 +1,7 @@
 import { greet } from './greet';
 
-describe('greet', () =>{
+describe('greet text suite', () =>{
     it ('shoul include the name in the message', ()=> {
-        expect(greet('mosh')).toBe('Welcome mosh');
+        expect(greet('sag')).toBe('Welcome sag');
     })
 });
